@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table{
+  margin: 1em 0;
+  color: #024457;
+  border: 1px solid #167F92;
+}
+tr {
+  border: 1px solid #D9E4E6;
+}
+tr:nth-child(even){
+  background-color:  #EAF3F3;
+}
+th {
+  background-color: #167F92;
+  color: white;
+  padding: 0.8em;
+}
+th, td {
+  display: table-cell;
+  padding: 0.6em;
+}
+td {
+  border: 1px solid #D9E4E6;
+  text-align: center;
+}
+
+input {
+  display: none;
+}
+.upload {
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  background: #167F92;
+  border-radius: 6px;
+  margin: 25px;
+}
+p{
+  text-align: center;
+  font-size: 2em;
+  color: #024457;
+  font-weight: 600;
+}
